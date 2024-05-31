@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@airdao/sdk-core@4.0.7-airdao.0":
+  version "4.0.7-airdao.0"
+  resolved "https://registry.yarnpkg.com/@airdao/sdk-core/-/sdk-core-4.0.7-airdao.0.tgz#f1e7a7b6d27386eb7b1f6710bbeba45f71ba6585"
+  integrity sha512-HylW92Q7jbd7L3q7mvOhZi4XnPFt6kslGHkIA2mRnQ7g5lG68/ESuQWTeXWv0wXBsqNvSMskzbguR++i6nOGXg==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
 "@ampproject/remapping@^2.2.0":
   version "2.3.0"
   resolved "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.3.0.tgz"
@@ -1359,18 +1371,6 @@
     "@types/estree" "0.0.39"
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
-
-"@sigismund/sdk-core@4.0.7-airdao.1":
-  version "4.0.7-airdao.1"
-  resolved "https://registry.npmjs.org/@sigismund/sdk-core/-/sdk-core-4.0.7-airdao.1.tgz"
-  integrity sha512-IatplwhfMHB2BhgkksDoRGdqx+H+UKb1wlef6OJK74dKETrjKljnmJMY3r+Pae34w6yKqX1SIZrqtqTX9Gru/Q==
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.6"

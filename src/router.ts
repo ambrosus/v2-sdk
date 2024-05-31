@@ -1,4 +1,4 @@
-import { Token, Currency, CurrencyAmount, Percent, TradeType, validateAndParseAddress } from '@sigismund/sdk-core'
+import { Token, Currency, CurrencyAmount, Percent, TradeType, validateAndParseAddress } from '@airdao/sdk-core'
 import { Trade } from './entities'
 import invariant from 'tiny-invariant'
 

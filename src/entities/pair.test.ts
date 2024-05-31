@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, Price, Token, WETH9 } from '@sigismund/sdk-core'
+import { ChainId, CurrencyAmount, Price, Token, WETH9 } from '@airdao/sdk-core'
 import { InsufficientInputAmountError } from '../errors'
 import { computePairAddress, Pair } from './pair'
 import { BigNumber } from '@ethersproject/bignumber'
